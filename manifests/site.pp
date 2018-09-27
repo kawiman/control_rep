@@ -1,6 +1,6 @@
 node default{
   file {'/root/README':
       ensure => file,
-      content +. 'Thisis a readme',
+      content => 'Thisis a readme',
   }
 }
